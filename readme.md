@@ -86,4 +86,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or inquiries, please contact [archywilliams2@gmail.com](archywilliams2@gmail.com).
+For any questions or inquiries, please contact:
+- Email: [archywilliams2@gmail.com](archywilliams2@gmail.com).
+
+
+- Twitter/X: [@dev_williee](https://twitter.com/dev_williee)
+- GitHub: [Mini Daraja API Repository](https://github.com/yourusername/mini-daraja-api)
+- Phone: +254712345678
