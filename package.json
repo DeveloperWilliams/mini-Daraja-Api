@@ -1,0 +1,24 @@
+{
+  "name": "mini-daraja",
+  "version": "1.0.0",
+  "description": "Mini Daraja API is a Node.js wrapper for the Daraja API, which allows developers to easily integrate M-Pesa payment services into their applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperWilliams/mini-Daraja-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperWilliams/mini-Daraja-Api/issues"
+  },
+  "homepage": "https://github.com/DeveloperWilliams/mini-Daraja-Api#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}
