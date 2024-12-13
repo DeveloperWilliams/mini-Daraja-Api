@@ -1,25 +1,44 @@
 {
   "name": "mini-daraja",
   "version": "1.0.0",
-  "description": "Mini Daraja API is a Node.js wrapper for the Daraja API, which allows developers to easily integrate M-Pesa payment services into their applications.",
-  "main": "index.js",
+  "description": "Mini Daraja API is a Node.js wrapper for the Daraja API, enabling seamless integration of M-Pesa payment services into applications.",
+  "main": "dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeveloperWilliams/mini-Daraja-Api.git"
+    "url": "https://github.com/DeveloperWilliams/mini-Daraja-Api.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["daraja", "mpesa", "api", "nodejs", "payments", "mpesa-integration"],
+  "author": "Wanyama William Achuchi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DeveloperWilliams/mini-Daraja-Api/issues"
   },
   "homepage": "https://github.com/DeveloperWilliams/mini-Daraja-Api#readme",
   "dependencies": {
-    "axios": "^1.7.9",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
-  }
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }
